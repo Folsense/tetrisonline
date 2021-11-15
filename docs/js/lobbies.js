@@ -8,7 +8,7 @@ nameInput.addEventListener("change", function(){
     sessionStorage.setItem("uname", document.getElementById("changeName").value.substring(0, 15));
 })
 
-var socket = new WebSocket('wss://ec2-54-149-36-5.us-west-2.compute.amazonaws.com:8081');
+var socket = new WebSocket('wss://ec2-54-149-36-5.us-west-2.compute.amazonaws.com:8443');
 
 // Connection opened
 socket.addEventListener('open', function (event) {
