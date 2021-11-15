@@ -1,0 +1,39 @@
+<head>
+    <link href = "css/style.css" rel = "stylesheet">
+</head>
+<body>
+    <div id = "changeNameGroup">
+        <label for = "changeName">Name:</label>
+        <input type = "text" maxlength = "15" id = "changeName" name = "changeName">
+    </div>
+    <h1>TETRIS</h1>
+    <div id = "blur" class = "hidden"></div>
+    <div id = "makeOptions" class = "hidden">
+        <h3>Make Game</h3>
+        <div class = "inputGroup">
+            <label for = "pieceSize">Piece Size:</label>
+            <input type = "number" value = "4" min = "4" max = "5" name = "pieceSize" id = "pieceSize">
+        </div>
+        <div class = "inputGroup">
+            <label for = "boardWidth">Board Width:</label>
+            <input type = "number" value = "10" min = "8" max = "20" name = "boardWidth" id = "boardWidth">
+        </div>
+        <div class = "inputGroup">
+            <label for = "boardHeight">Board Height:</label>
+            <input type = "number" value = "20" min = "10" max = "40" name = "boardHeight" id = "boardHeight">
+        </div>
+        <div class = "inputGroup">
+            <label for = "level">Level:</label>
+            <input type = "number" value = "10" min = "0" max = "20" name = "level" id = "level">
+        </div>
+        <input id = "cancelMake" type = "submit" value = "Cancel">
+        <input id = "genGame" type = "submit" value = "Submit">
+    </div>
+    <button id = "makeGame">Make Game</button>
+    <script src = "js/helper.js"></script>
+    <script src = "js/Block.js"></script>
+    <script src = "js/Tetromino.js"></script>
+    <script src = "js/Board.js"></script>
+    <script src = "js/Game.js"></script>
+    <script src = "js/lobbies.js"></script>
+</body>

@@ -1,0 +1,206 @@
+body {
+    text-align: center;
+    background-color: rgb(200, 200, 200);
+}
+
+canvas {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+button {
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+}
+
+.lobby {
+    padding: 10px;
+    background-color: lightblue;
+    width: fit-content;
+    border-radius: 20px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.lobby:nth-child(n){
+    margin-bottom: 20px;
+}
+
+.lobby a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.descriptor {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+#makeOptions {
+    left: 25%;
+    width: 50%;
+    position: absolute;
+    background: lightblue;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+#makeOptions input {
+    margin: 0 auto;
+}
+
+#makeOptions button {
+    margin: 0 auto;
+}
+
+#makeOptions h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#makeOptions .inputGroup {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+#makeOptions label {
+    font-size: 20px;
+}
+
+#makeOptions input {
+    height: 25px;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    height: 40px;
+}
+
+h3 {
+    text-align: center;
+}
+
+#blur {
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0);
+    opacity: 0.5;
+}
+
+#makeGame {
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#countsHolder {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: bisque;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+#playerCount {
+    color: black;
+    font-size: 30px;
+    margin: 0;
+}
+
+#startWarning {
+    color: red;
+    font-size: 20px;
+    margin: 5px 0 0;
+}
+
+#readyBtn {
+    background: lightblue;
+    font-size: 30px;
+    width: 150px;
+    height: 40px;
+}
+
+#makeGame {
+    background: lightblue;
+    font-size: 30px;
+    width: 220px;
+    height: 40px;
+}
+
+#goOnline {
+    background: lightblue;
+    font-size: 30px;
+    width: 180px;
+    height: 40px;
+}
+
+#gameLayout {
+    width: 100%;
+    padding: 0px;
+}
+
+#mainGameHolder {
+    float: left;
+    width: 50%;
+}
+
+#otherGamesHolder {
+    float: left;
+    width: 50%;
+}
+
+#mainGameHolder .gameHolder p {
+    font-size: 50px;
+    margin: 0 0 10px;
+}
+
+#mainGameHolder .gameHolder {
+    margin: auto auto;
+}
+
+#otherGamesHolder .gameHolder p {
+    font-size: 25px;
+    margin: 5px auto;
+}
+
+#otherGamesHolder .gameHolder {
+    margin: 0 auto;
+    display: block;
+}
+
+#otherGamesHolder {
+    height: 100%;
+    overflow: auto;
+}
+
+#changeNameGroup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 0 0 20px;
+}
+
+#changeNameGroup input {
+    font-size: 30px;
+    height: 35px;
+    width: 150px;
+}
+
+#changeNameGroup label {
+    font-size: 30px;
+}
